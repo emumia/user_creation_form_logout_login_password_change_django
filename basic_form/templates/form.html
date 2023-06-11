@@ -1,0 +1,28 @@
+{% extends 'common_code.html' %}
+{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'form.css' %}"> {% endblock css %}
+
+{% block content %}
+<form action="" method="POST" novalidate >
+    {% csrf_token %}
+    <!--<table>{{form}}</table> -->
+
+    <!--{% for field in form.visible_fields %}
+    {{field.label_tag}}
+    {{field}}
+    {% endfor %}
+
+    {% for field in form.hidden_fields %}
+    {{hidden}}
+    {% endfor %}-->
+    {{form.as_p}}
+    
+    <input type="submit" class="submit" value="Submit">
+    
+</form>
+
+
+{% endblock content %}
+
+
+

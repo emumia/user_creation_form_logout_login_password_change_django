@@ -1,0 +1,54 @@
+body,#h1{
+    background-color: darkseagreen;
+}
+form{
+    margin-left: 20px;
+    border: 5px solid red;
+    padding: 15px;
+    background-color: yellow;
+
+}
+
+label{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    background-color: cyan;
+    width: 300px;
+}
+
+#id_textarea{
+    background-color: cyan;
+}
+
+#id_Checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+#id_django{
+    width: 20px;
+    height: 20px;
+}
+
+#id_payments{
+    height: 20px;
+    width: 80px;
+}
+
+.submit{
+    height: 20px;
+    width: 100px;
+
+}
+
+.errorlist{
+    list-style-type: none;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
